@@ -1,1 +1,25 @@
 @import "global.css";
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 2rem;
+}
+
+header .logo {
+    font-size: 1.2rem;
+}
+
+header .btn-login {
+    padding: .4rem 1.5rem;
+    background-color: var(--quaternary-color);
+    border-radius: 8px;
+    border: 2px solid var(--text-primary-color);
+}
+
+nav {
+    display: none;
+}
+
