@@ -23,3 +23,41 @@ nav {
     display: none;
 }
 
+main {
+    width: 100%;
+    padding: 0 2rem;
+}
+
+.hero {
+    text-align: center;
+    padding-top: 1.5rem;
+}
+
+.hero .cards {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+.cards .card {
+    background-color: var(--quaternary-color);
+    width: 70%;
+    border-radius: 8px;
+    padding: 2rem;
+}
+
+.card img {
+    width: 50%;
+}
+
+.card .content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: .8rem;
+}
+
+
