@@ -44,13 +44,13 @@ main {
 
 .cards .card {
     background-color: var(--quaternary-color);
-    width: 70%;
+    width: 60%;
     border-radius: 8px;
     padding: 2rem;
 }
 
 .card img {
-    width: 50%;
+    width: 40%;
 }
 
 .card .content {
